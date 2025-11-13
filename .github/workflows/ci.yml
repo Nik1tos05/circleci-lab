@@ -12,8 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [ "3.11", "3.12" ]  # Можно оставить только 3.11, если хочешь
-
+        python-version: [ "3.11" ]  # можно добавить "3.12"
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
